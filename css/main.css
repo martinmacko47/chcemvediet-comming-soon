@@ -1,0 +1,54 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700);
+
+body { font-family: 'Ubuntu', sans-serif; }
+h1 { font-size: 50px; font-weight: 400; }
+h2 { font-size: 25px; font-weight: 300; }
+h3 { font-size: 18px; font-weight: 400; }
+p.lead { font-size: 16px; }
+p, li { font-size: 14px; }
+@media (min-width: 450px) { h1 { font-size: 75px; } }
+@media (min-width: 450px) { h2 { font-size: 30px; } }
+@media (min-width: 450px) { h3 { font-size: 22px; } }
+@media (min-width: 800px) { h1 { font-size: 100px; } }
+@media (min-width: 800px) { h2 { font-size: 40px; } }
+@media (min-width: 800px) { h3 { font-size: 24px; } }
+@media (min-width: 800px) { p.lead { font-size: 21px; } }
+@media (min-width: 800px) { p, li { font-size: 16px; } }
+.btn { white-space: normal; font-weight: 500; }
+.btn-outline { color: #013bc3; border-color: #013bc3; background-color: #fff; }
+.btn-outline:hover { color: #fff; background-color: #013bc3; }
+.chv-inverse { color: #fdfdfd; background-color: #013bc3; }
+.chv-inverse a { color: #fdfdfd; }
+.chv-inverse .btn-outline { color: #fdfdfd; border-color: #fdfdfd; background-color: #013bc3; }
+.chv-inverse .btn-outline:hover { color: #013bc3; background-color: #fdfdfd; }
+.chv-hr-short { width: 100px; margin: 40px auto; }
+.chv-fotky { text-align: center; margin-top: 40px; }
+.chv-fotka { width: 80px; height: 80px; border-radius: 150px; margin: 5px 5px; }
+@media (min-width: 800px) { .chv-fotky { margin-top: 10px; } }
+@media (min-width: 1200px) { .chv-fotky { margin-top: -10px; } }
+@media (min-width: 1200px) { .chv-fotka { width: 130px; height: 130px; } }
+.chv-navbar { margin-bottom: 0; }
+.chv-navbar .navbar-brand { color: #013bc3; }
+.chv-navbar .navbar-nav > li > a { color: #013bc3; }
+.chv-navbar-icon img { width 32px; height: 32px; border-radius: 3px; margin: -10px 0; }
+.chv-brand { padding: 60px 0; text-align: center; }
+.chv-brand h1 { margin-bottom: 60px; }
+.chv-brand .btn { margin: 20px 0 20px 0; padding: 20px 40px;  vertical-align: baseline; }
+.chv-brand-spojka { padding: 20px 40px; font-size: 18px; vertical-align: baseline; display: block; }
+@media (min-width: 800px) { .chv-brand-spojka { display: inline; } }
+.chv-brand-down { margin: -10px 0 -10px 10px; font-size: 32px; vertical-align: middle; }
+.chv-projekt { padding: 60px 0 0 0; text-align: center; }
+.chv-projekt-img { max-width: 90%; }
+.chv-projekt-krok { margin-bottom: 60px; }
+.chv-preco { text-align: center; }
+.chv-preco h2 { margin-bottom: 40px; }
+.chv-preco ul { padding: 0; list-style: none; }
+.chv-preco li { margin: 10px 0 0 -26px; }
+.chv-preco li .glyphicon { margin-right: 10px; color: #013bc3; }
+.chv-video { margin: 60px 0; }
+.chv-video iframe { margin: 0 auto; display: block; }
+.chv-podporte { text-align: center; }
+.chv-podporte h2 { margin-bottom: 40px; }
+.chv-podporte .btn { margin: 40px 0 80px 0; padding: 20px 40px; }
+.chv-footer { padding: 40px 0 100px 0; }
+.chv-footer-icon img { width 32px; height: 32px; border-radius: 3px; }

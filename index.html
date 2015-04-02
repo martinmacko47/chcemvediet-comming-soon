@@ -6,40 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chcemvediet.sk</title>
     <link href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
-    <style type="text/css">
-      h2 { font-size: 40px; }
-      p.lead { font-size: 21px; }
-      p, li { font-size: 16px; }
-      .btn-outline { color: #013bc3; border-color: #013bc3; background-color: #fff; }
-      .btn-outline:hover { color: #fff; background-color: #013bc3; }
-      .chv-inverse { color: #fdfdfd; background-color: #013bc3; }
-      .chv-inverse a { color: #fdfdfd; }
-      .chv-hr-short { width: 100px; margin: 40px auto; }
-      .chv-fotky { text-align: center; margin-top: 40px; }
-      .chv-fotka { width: 80px; height: 80px; border-radius: 150px; margin: 5px 5px; }
-      @media (min-width: 800px) { .chv-fotky { margin-top: 10px; } }
-      @media (min-width: 1200px) { .chv-fotky { margin-top: -10px; } }
-      @media (min-width: 1200px) { .chv-fotka { width: 130px; height: 130px; } }
-      .chv-navbar { margin-bottom: 0; }
-      .chv-navbar .navbar-brand { color: #013bc3; }
-      .chv-navbar .navbar-nav > li > a { color: #013bc3; }
-      .chv-navbar-icon img { width 32px; height: 32px; border-radius: 3px; margin: -10px 0; }
-      .chv-brand { padding: 0; margin: 0; text-align: center; }
-      .chv-brand-img { width: 100%; max-width: 720px; padding 0: margin: 0; }
-      .chv-projekt { padding: 60px 0; text-align: center; }
-      .chv-projekt-img { max-width: 90%; }
-      .chv-preco { text-align: center; }
-      .chv-preco h2 { margin-bottom: 40px; }
-      .chv-preco ul { padding: 0; list-style: none; }
-      .chv-preco li:before, .chv-preco li:after { content: '-'; padding: 0 5px; color: #ddd; }
-      .chv-video { margin: 60px 0; }
-      .chv-video iframe { margin: 0 auto; display: block; }
-      .chv-podporte { text-align: center; }
-      .chv-podporte h2 { margin-bottom: 40px; }
-      .chv-podporte .btn { margin: 40px 0 80px 0; padding: 20px 40px; }
-      .chv-footer { padding: 40px 0 100px 0; }
-      .chv-footer-icon img { width 32px; height: 32px; border-radius: 3px; }
-    </style>
+    <link href="css/main.css" rel="stylesheet">
   </head>
   <body>
     <header class="navbar navbar-default navbar-static-top chv-navbar">
@@ -54,15 +21,22 @@
         </div>
         <div id="chv-navbar-collapse" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="https://www.startlab.sk/projekty/1-chcemvedietsk/">StartLab</a></li>
+            <li><a href="https://www.startlab.sk/projekty/1-chcemvedietsk/" target="_blank">StartLab</a></li>
             <li><a href="#">Blog</a></li>
-            <li class="chv-navbar-icon"><a href="https://www.facebook.com/chcemvedietsk"><img src="img/fb.png"></a></li>
+            <li class="chv-navbar-icon"><a href="https://www.facebook.com/chcemvedietsk" target="_blank"><img src="img/fb.png"></a></li>
           </ul>
         </div>
       </div>
     </header>
     <div class="chv-brand chv-inverse">
-      <a href="https://www.startlab.sk/projekty/1-chcemvedietsk/"><img class="chv-brand-img" src="img/brand.jpg" alt="Aj ty chceš vedieť? Podpor vznik portálu na posielanie infožiadostí. Chcemvediet.sk"></a>
+      <div class="container">
+        <h1>Aj ty chceš<br><strong>vedieť</strong>&thinsp;?</h1>
+        <p>
+          <a class="btn btn-outline btn-lg scroll-to" href="#" data-target=".chv-projekt">Zistite o čo ide <span class="glyphicon glyphicon-download chv-brand-down"></span></a>
+          <span class="chv-brand-spojka">a</span>
+          <a class="btn btn-outline btn-lg" href="https://www.startlab.sk/projekty/1-chcemvedietsk/" target="_blank">Podporte cez StartLab</a>
+        </p>
+      </div>
     </div>
     <div class="chv-projekt">
       <div class="container">
@@ -72,19 +46,19 @@
         inštitúcia odmietne sprístupniť požadované informácie. Chcemvediet.sk k tomu prispeje.</p>
         <hr class="chv-hr-short">
         <div class="row">
-          <div class="col-sm-4">
+          <div class="col-sm-4 chv-projekt-krok">
             <img class="chv-projekt-img" src="http://placehold.it/250x250">
             <h3>Lorem ipsum</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua.</p>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4 chv-projekt-krok">
             <img class="chv-projekt-img" src="http://placehold.it/250x250">
             <h3>Dolor sit amet</h3>
             <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
             ex ea commodo consequat.</p>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4 chv-projekt-krok">
             <img class="chv-projekt-img" src="http://placehold.it/250x250">
             <h3>consectetur adipiscing</h3>
             <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
@@ -109,18 +83,18 @@
           <div class="col-sm-6">
             <h3>Aby ste</h3>
             <ul>
-              <li>si poradili s infožiadosťou a odvolaním aj bez pomoci právnika</li>
-              <li>mohli poslať infožiadosť akejkoľvek inštitúcii z jedného miesta</li>
-              <li>mohli vyhľadávať v už sprístupnených informáciách</li>
-              <li>mali prehľad o vybavovaní infožiadostí</li>
+              <li><span class="glyphicon glyphicon-ok"></span> si poradili s infožiadosťou a odvolaním aj bez pomoci právnika</li>
+              <li><span class="glyphicon glyphicon-ok"></span> mohli poslať infožiadosť akejkoľvek inštitúcii z jedného miesta</li>
+              <li><span class="glyphicon glyphicon-ok"></span> mohli vyhľadávať v už sprístupnených informáciách</li>
+              <li><span class="glyphicon glyphicon-ok"></span> mali prehľad o vybavovaní infožiadostí</li>
             </ul>
           </div>
           <div class="col-sm-6">
             <h3>Aby ste už nemuseli</h3>
             <ul>
-              <li>hľadať kontakty na inštitúcie na ich weboch</li>
-              <li>opakovane žiadať o to, čo už bolo zverejnené</li>
-              <li>sledovať komplikované lehoty</li>
+              <li><span class="glyphicon glyphicon-ok"></span> hľadať kontakty na inštitúcie na ich weboch</li>
+              <li><span class="glyphicon glyphicon-ok"></span> opakovane žiadať o to, čo už bolo zverejnené</li>
+              <li><span class="glyphicon glyphicon-ok"></span> sledovať komplikované lehoty</li>
             </ul>
           </div>
         </div>
@@ -136,7 +110,7 @@
         in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
         sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
         laborum.</p>
-        <a class="btn btn-outline btn-lg" href="https://www.startlab.sk/projekty/1-chcemvedietsk/">Podpor vznik portálu cez StartLab</a>
+        <a class="btn btn-outline btn-lg" href="https://www.startlab.sk/projekty/1-chcemvedietsk/" target="_blank">Podporte vznik portálu cez StartLab</a>
       </div>
     </div>
     <footer class="chv-footer chv-inverse">
@@ -147,7 +121,7 @@
             Mária Žuffová z Inštitútu pre dobre spravovanú spoločnosť a dizajnérka Michala Lipková.</p>
             <p>Kontakt: <a href="mailto:aj.ja@chcemvediet.sk">aj.ja@chcemvediet.sk</a></p>
             <div>
-              <span class="chv-footer-icon"><a href="https://www.facebook.com/chcemvedietsk"><img src="img/fb.png"></a></span>
+              <span class="chv-footer-icon"><a href="https://www.facebook.com/chcemvedietsk" target="_blank"><img src="img/fb.png"></a></span>
             </div>
           </div>
           <div class="col-sm-7 chv-fotky">
@@ -161,5 +135,6 @@
     </footer>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
