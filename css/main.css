@@ -1,9 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700);
+@import url(http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css);
 
 body { font-family: 'Ubuntu', sans-serif; }
 h1 { font-size: 50px; font-weight: 400; }
-h2 { font-size: 25px; font-weight: 300; }
-h3 { font-size: 18px; font-weight: 400; }
+h2 { font-size: 25px; font-weight: 300; color: #013bc3; }
+h3 { font-size: 18px; font-weight: 400; color: #013bc3; }
 p.lead { font-size: 16px; }
 p, li { font-size: 14px; }
 @media (min-width: 450px) { h1 { font-size: 75px; } }
@@ -28,9 +29,9 @@ p, li { font-size: 14px; }
 @media (min-width: 1200px) { .chv-fotky { margin-top: -10px; } }
 @media (min-width: 1200px) { .chv-fotka { width: 130px; height: 130px; } }
 .chv-navbar { margin-bottom: 0; }
-.chv-navbar .navbar-brand { color: #013bc3; }
-.chv-navbar .navbar-nav > li > a { color: #013bc3; }
-.chv-navbar-icon img { width 32px; height: 32px; border-radius: 3px; margin: -10px 0; }
+.chv-navbar .navbar-brand { font-size: 24px; color: #013bc3; }
+.chv-navbar .navbar-nav > li a { color: #013bc3; }
+.chv-navbar-icons { font-size: 32px; padding: 15px; margin: -12px 0 -20px 0; }
 .chv-brand { padding: 60px 0; text-align: center; }
 .chv-brand h1 { margin-bottom: 60px; }
 .chv-brand .btn { margin: 20px 0; padding: 20px 40px;  vertical-align: baseline; }
@@ -42,16 +43,22 @@ p, li { font-size: 14px; }
 .chv-projekt-krok { margin-bottom: 60px; }
 .chv-preco { text-align: center; }
 .chv-preco h2 { margin-bottom: 40px; }
+.chv-preco ul { margin: 20px 5px; padding: 10px 15px 20px 49px; border: solid 1px #013bc3; border-radius: 15px; text-align: left; }
+.chv-preco li { margin-top: 10px; }
+.chv-preco .fa-li { color: #013bc3; }
+
+/*
 .chv-preco ul { padding: 0 20px; list-style: none; }
 .chv-preco li { margin: 10px 0 0 0; }
 .chv-preco li .glyphicon { margin: 0 10px 0 -31px; color: #013bc3; }
+*/
 .chv-video { margin: 60px 0; }
 .chv-video iframe { margin: 0 auto; display: block; }
 .chv-podporte { text-align: center; }
 .chv-podporte h2 { margin-bottom: 40px; }
 .chv-podporte .btn { margin: 40px 0 80px 0; padding: 20px 40px; }
 .chv-footer { padding: 40px 0 100px 0; }
-.chv-footer-icon img { width 32px; height: 32px; border-radius: 3px; }
+.chv-footer-icons { font-size: 32px; }
 @media (max-width: 449px) {
   .chv-hr-short { margin: 20px auto; }
   .chv-fotky { margin-top: 20px; }
