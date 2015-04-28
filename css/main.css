@@ -5,6 +5,7 @@ body { font-family: 'Ubuntu', sans-serif; }
 h1 { font-size: 50px; font-weight: 400; }
 h2 { font-size: 25px; font-weight: 300; color: #013bc3; }
 h3 { font-size: 18px; font-weight: 400; color: #013bc3; }
+h4 { font-size: 14px; font-weight: 400; color: #013bc3; }
 p.lead { font-size: 16px; }
 p, li { font-size: 14px; }
 @media (min-width: 450px) { h1 { font-size: 75px; } }
@@ -46,12 +47,6 @@ p, li { font-size: 14px; }
 .chv-preco ul { margin: 20px 5px; padding: 10px 15px 20px 49px; border: solid 1px #013bc3; border-radius: 15px; text-align: left; }
 .chv-preco li { margin-top: 10px; }
 .chv-preco .fa-li { color: #013bc3; }
-
-/*
-.chv-preco ul { padding: 0 20px; list-style: none; }
-.chv-preco li { margin: 10px 0 0 0; }
-.chv-preco li .glyphicon { margin: 0 10px 0 -31px; color: #013bc3; }
-*/
 .chv-video { margin: 60px 0; }
 .chv-video iframe { margin: 0 auto; display: block; }
 .chv-podporte { text-align: center; }
@@ -59,6 +54,10 @@ p, li { font-size: 14px; }
 .chv-podporte .btn { margin: 40px 0 80px 0; padding: 20px 40px; }
 .chv-footer { padding: 40px 0 100px 0; }
 .chv-footer-icons { font-size: 32px; }
+.chv-partneri { padding-bottom: 40px; }
+.chv-partneri h4 { padding-top: 20px; }
+.chv-partner { margin: 10px 40px 10px 0; }
+.chv-individualni { display: none; }
 @media (max-width: 449px) {
   .chv-hr-short { margin: 20px auto; }
   .chv-fotky { margin-top: 20px; }
